@@ -95,4 +95,3 @@ results = await asyncio.gather(*(run_one(b) for b in batches))
 - **Use Async**: I/O-bound operations (APIs, files, databases)
 - **Use Parallel (ProcessPoolExecutor)**: CPU-bound operations (ML inference, heavy computation)
 - **Use Semaphore**: When you need to limit concurrent operations to avoid overload
-# asyncio-cheatsheet
